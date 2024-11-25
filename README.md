@@ -22,13 +22,6 @@ The 3rd step is Pre-processing, which is manipulating the data to prepare it for
 I want to acknowledge the support and guidance from my educators at BrainStation, especially Laura Cornejo Paulino and Steven Savchik, as well as Borna Ghotbi, for #1, their teachings on the topics that have contributed to this project. Laura and Steven have given awesome feedback and direction to this project and #2 influenced its development in many ways from areas such as this very readme.md file to even the stat and ml models chosen that would best fit this project. Big shoutout and thanks educator staff at BrainStation! 
 
 ### <ins>Describe Your Results</ins>
-EDA has developed more from Sprint 1 to Sprint 2. Some notable insights found were: 
-
-
-
-
-
-
-Pending descriptive results as eda, analysis, and modeling is underway.
+EDA has developed more from Sprint 1 to Sprint 2. Some notable items found were: the `time_stamp` column in the `cab_rides` dataset needed to be converted to datetime, as it initally was a long string of numbers that was representing milliseconds. This has been done and `time_stamp` is now able to be used for Time Series analysis. Another item noticed was that we're slightly more uber drivers than lyft. Somthing that could be further evaluated (and has been suggested to me) is to see if there is a shortage of lyft drivers and what effect that can have on the overall demand for a city/market. Regarding the `weather` dataset, I decided to spotlight three weather conditions that I thought most people would deem impactful in their decision to use Uber/Lyft and those are 'temp', 'rain', and 'wind'. Something noteworthy from these distributions was that the most rides completed were completed in about 40-41(°F) weather. Another surprising find from these three weather conditions was that the most rides completed were completed in ~9mph wind speed! As for the cab rides dataset, the highest number trips completed were ~1.5 miles in overall distance (source-destination). Another cab rides dataset insight was that the highest number of rides completed were priced at about ~$10 to the passenger. Some other distribtuions were done on the remaining weather conditions in the dataset beyond the three previously mentioned so be sure to check these out. Pending further descriptive results as eda, analysis, and modeling is underway.
 
 ### Party!
